@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin: 0;
+      background-color: rgb(247, 248, 248);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  }
+
+.next_container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 6% repeat(2, 45%);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .next_div1 { 
+        grid-area: 1 / 1 / 2 / 3;
+        background-color:#124C35;
+        
+        text-align: center;
+        font-size: 300%;
+        color: #DCE6E2;
+        
+     }
+    .next_div2 { 
+        grid-area: 2 / 1 / 3 / 2;
+        background-color: #72B399;
+        
+
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        border: solid;
+     }
+     .neco_arc1{
+        width: 40%;
+        height: 60%;
+        object-fit: contain;
+        margin-left: 30%;
+        padding-top: 10%;
+     }
+
+     .dori{
+        font-size:200%;
+        margin-top: 0;
+        padding-top: 25%;
+        color: #DCE6E2;
+        text-align: center;
+     }
+     a{
+        color: #DCE6E2;
+        text-decoration: none;
+     }
+    .next_div3 { 
+        grid-area: 2 / 2 / 3 / 3;
+        background-color: #72B399;
+        border: solid;
+     }
+    .next_div4 { 
+        grid-area: 3 / 1 / 4 / 2;
+        background-color: #72B399;
+        border: solid;
+     }
+     .neco_arc_dance{
+        width: 40%;
+        height: 60%;
+        object-fit: contain;
+        margin-left: 30%;
+        padding-top: 10%;
+     }
+    .next_div5 { 
+        grid-area: 3 / 2 / 4 / 3;
+        background-color: #72B399;
+        
+
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        border: solid;
+     }
+     .buru_nya{
+        font-size:200%;
+        margin-top: 0;
+        padding-top: 25%;
+        color: #DCE6E2;
+        text-align: center;
+     }
+    
+    

@@ -8,7 +8,7 @@ body{
 .prev_grid-container {
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 6% 30% 64%;
+    grid-template-rows: 10% 30% 64%;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
@@ -18,6 +18,10 @@ body{
         background-color:#124C35;
         
         text-align: center;
+        font-size: 300%;
+        color: #DCE6E2;
+     }
+     .name{
         font-size: 300%;
         color: #DCE6E2;
      }

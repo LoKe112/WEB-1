@@ -8,7 +8,7 @@ body{
 .next_container {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 6% repeat(2, 45%);
+    grid-template-rows: 10% repeat(2, 45%);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
@@ -44,6 +44,7 @@ body{
         padding-top: 25%;
         color: #DCE6E2;
         text-align: center;
+        margin-bottom: 1%;
      }
      a{
         color: #DCE6E2;
